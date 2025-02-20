@@ -169,3 +169,46 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# AI/ML Models
+models/
+*.h5
+*.pkl
+*.pt
+*.ckpt
+*.onnx
+*.tflite
+__tensorboard_logs__/
+*.mlmodel
+*.joblib  # Scikit-learn models
+*.sav     # Pickle models
+*.pb      # TensorFlow models
+
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+.parcel-cache/
+.next/
+.nuxt/
+dist/
+
+# Database Files
+*.sqlite3
+*.sqlite3-journal
+dump.rdb  # Redis dumps
+
+# Logs
+logs/
+*.log
+debug.log
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+.vscode/
+
